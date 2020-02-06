@@ -9,3 +9,9 @@ export PS1="\[\033[31m\]\u@Laptop:\[\033[33m\]\W\[\033[32m\]\$(parse_git_branch)
 
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
+
+alias ll='ls -alh -Gp'
+alias gl='git lg'
+alias lgrep='ll | grep -i'
+alias mypath='echo -e ${PATH//:/\\n}'
